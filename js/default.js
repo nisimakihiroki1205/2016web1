@@ -9,15 +9,17 @@ var answer = parseInt(window.prompt('数あてゲーム。0から49の数字を�
 
 var message;
 if(number === answer){
-  document.write("当たり。")
+  document.write("当たり。");
   document.write("残機は" + life + "です。");
   }
 else if(answer < number){
+  document.write(answer);
   document.write("残念、もっと大きいです。");
   life--;
   document.write("残機は" + life + "です。");
   }
   else if(number < answer){
+  document.write(answer);
   document.write("残念、もっと小さいです。");
   life--;
   document.write("残機は" + life + "です。");
