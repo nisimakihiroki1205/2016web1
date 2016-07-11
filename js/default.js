@@ -12,6 +12,7 @@ if(number === answer){
   document.write("当たり。");
   document.write("残機は" + life + "です。");
   document.write('<p></p>');
+  break;
   }
 else if(answer < number){
   document.write(answer);
