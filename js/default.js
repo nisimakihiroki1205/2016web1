@@ -4,6 +4,8 @@ var result = window.confirm('じゅんびOK');
 if(result==false){break;}
 var number = Math.floor(Math.random()*3);
 
+var life = 10;
+
 var answer = parseInt(window.prompt('数あてゲーム。0から2の数字を入力して下さい。'));
 
 var message;
@@ -22,4 +24,5 @@ else{
 
 
 document.getElementById('choice').textContent = message;
+document.getElementById('choice').textContent = life;
 }
