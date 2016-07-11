@@ -10,18 +10,18 @@ var answer = parseInt(window.prompt('数あてゲーム。0から2の数字を�
 
 var message;
 if(number === answer){
-  message = 'あたり';
+  document.write("当たり。")
   }
 else if(answer<number){
-  message = '残念、もっと大きいです。';
+  document.write("残念、もっと大きいです。");
   }
   else if(number<answer){
-  message = '残念、もっと小さいです。';
+  document.write("残念、もっと小さいです。");
   }
 else{
- message = '0から2の数字を入力して下さい。';
+ document.write("0から2の数字を入力して下さい。");
  }
 
-document.getElementById('choice').textContent = message;
+//document.getElementById('choice').textContent = message;
 document.write("残機は" + life + "です。");
 }
