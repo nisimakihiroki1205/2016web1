@@ -30,6 +30,7 @@ else if(answer < number){
 else{
  document.write("0から2の数字を入力して下さい。");
  }
-
+if(life === 0)
+{ document.write(がめおヴぇｒ);}
 
 }
