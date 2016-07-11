@@ -1,12 +1,11 @@
 var i = Math.floor(0);
+var number = Math.floor(Math.random()*50);
+var life = 10;
 for(i=0;i>-1;i++){
 var result = window.confirm('じゅんびOK');
-if(result==false){break;}
-var number = Math.floor(Math.random()*3);
+if(result == false){break;}
 
-var life = 10;
-
-var answer = parseInt(window.prompt('数あてゲーム。0から2の数字を入力して下さい。'));
+var answer = parseInt(window.prompt('数あてゲーム。0から49の数字を入力して下さい。'));
 
 var message;
 if(number === answer){
