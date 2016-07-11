@@ -6,7 +6,7 @@ var number = Math.floor(Math.random()*3);
 
 var life = 10;
 
-var answer = parseInt(window.prompt('数あてゲーム。0から2の数字を入力して下さい。'));
+var answer = window.prompt("数あてゲーム。0から2の数字を入力して下さい。","""");
 
 var message;
 if(number === answer){
