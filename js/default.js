@@ -11,18 +11,21 @@ var message;
 if(number === answer){
   document.write("当たり。");
   document.write("残機は" + life + "です。");
+  document.write('<p></p>');
   }
 else if(answer < number){
   document.write(answer);
   document.write("残念、もっと大きいです。");
   life--;
   document.write("残機は" + life + "です。");
+  document.write('<p></p>');
   }
   else if(number < answer){
   document.write(answer);
   document.write("残念、もっと小さいです。");
   life--;
   document.write("残機は" + life + "です。");
+  document.write('<p></p>');
   }
 else{
  document.write("0から2の数字を入力して下さい。");
