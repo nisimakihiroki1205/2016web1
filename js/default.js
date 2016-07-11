@@ -22,6 +22,5 @@ else{
  document.write("0から2の数字を入力して下さい。");
  }
 
-//document.getElementById('choice').textContent = message;
 document.write("残機は" + life + "です。");
 }
