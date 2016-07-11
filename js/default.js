@@ -12,10 +12,10 @@ var message;
 if(number === answer){
   document.write("当たり。")
   }
-else if(answer<number){
+else if(answer < number){
   document.write("残念、もっと大きいです。");
   }
-  else if(number<answer){
+  else if(number < answer){
   document.write("残念、もっと小さいです。");
   }
 else{
